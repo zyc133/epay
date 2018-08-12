@@ -23,6 +23,7 @@ public class Main {
 //			System.out.println(singleResouce.hashCode());
 			System.out.println("单例"+SingleEnum.getResource().hashCode());
 			System.out.println("多例"+MultiEnum.getResouce().hashCode());
+			System.out.println("多例"+MultiEnum.getResouce().hashCode());
 		}
 		pool.shutdown();
 	}
